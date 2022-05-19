@@ -1,0 +1,100 @@
+\documentclass{beamer}
+\usetheme{CambridgeUS}
+
+\setbeamertemplate{caption}[numbered]{}
+
+\usepackage{enumitem}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{gensymb}
+\usepackage{graphicx}
+\usepackage{txfonts}
+
+\def\inputGnumericTable{}
+
+\usepackage[latin1]{inputenc}                                 
+\usepackage{color}                                            
+\usepackage{array}                                            
+\usepackage{longtable}                                        
+\usepackage{calc}                                             
+\usepackage{multirow}                                         
+\usepackage{hhline}                                           
+\usepackage{ifthen}
+\usepackage{caption}
+
+\title{AI1110 \\ Assignment 1}
+\author{Ritvik Sai C \\ CS21BTECH11054}
+\date{}
+\begin{document}
+	% The title page
+	\begin{frame}
+		\titlepage
+	\end{frame}
+	
+	% The table of contents
+	\begin{frame}{Outline}
+    		\tableofcontents
+	\end{frame}
+	
+	% The question
+	\section{Question}
+	\begin{frame}{Question 7.a}
+A page from a saving bank account passbook is given above:\\
+
+\end{frame}
+
+\begin{frame}
+\begin{table}[ht]
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+Date & Particulars & Amount Withdrawn & Amount Deposited & Balance\\
+\hline
+Jan 7,2016 & B/F & & & 3000.00\\
+\hline
+Jan 10,2016 & By Cheque & & 2600.00 & 5600.00\\
+\hline
+Feb 8,2016 & To Self & 1500.00 & & 4100.00\\
+\hline
+Apr 6,2016 & By Cheque & 1200.00 & & 2000.00\\
+\hline
+May 4,2016 & By Cash & & 6500.00 & 8500.00\\
+\hline
+May 27,2016 & By Cheque & & 1500.00 & 10000.00\\
+\hline
+\end{tabular}
+\end{table}
+\end{frame}
+
+\begin{frame}
+
+Calculate the interest for the 6 months from January to June 2016, at 6 percent per annum\\
+
+\end{frame}
+
+\begin{frame}
+ If the account is closed on 1st July 2016, find the amount received by the account holder\\
+
+\end{frame}
+	
+	% The solution
+	\section{Solution}
+	\begin{frame}{Solution}
+	
+
+From Jan 7 to Jan 10 3000.00 rupees was in the  bank for 3 days $\implies 3000\times3\times6/(100\times365)=1.48$ rupees\\
+From Jan 10 to Feb 8 5600.00 rupees was in the  bank for 29 days $\implies 5600\times29\times6/(100\times365)=26.70$ rupees \\
+From Feb 8 to Apr 6 4100.00 rupees was in the  bank for 58 days $\implies 4100\times58\times6/(100\times365)=39.09$ rupees\\ 
+From Apr 6 to May 4 2000.00 rupees was in the  bank for 28 days $\implies 2000\times28\times6/(100\times365)=9.21$ rupees\\
+From May 4 to May 27 8500.00 rupees was in the  bank for 23 days $\implies 8500\times23\times6/(100\times365)=32.14$ rupees\\
+From May 27 to June 30 10000.00 rupees was in the  bank for 34 days $\implies 10000\times34\times6/(100\times365)=55.89$ rupees\\
+$\therefore$ Total Interest is 164.51 rupees\\
+\end{frame}
+
+\begin{frame}
+ If the account is closed on July 1st then the amount received by the account holder is $ 10000 + 164.51 =10164.51$ rupees \\
+
+
+
+\end{frame}
+	
+\end{document}\textsl{•}
